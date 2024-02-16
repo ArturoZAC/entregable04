@@ -59,7 +59,7 @@ html{
 }
 
 .modal-content button {
-  background-color: #0056b3;
+  background-color: #555A88;
   color: white;
   padding: 8px 16px;
   border: none;
@@ -69,7 +69,7 @@ html{
 }
 
 .modal-content button:hover {
-  background-color: #0056b3;
+  background-color: #555A88;
 }
 
 .title_del{

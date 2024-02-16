@@ -1,0 +1,84 @@
+body{
+  background-color: white;
+  color: white;
+}
+
+html{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title_app{
+  color: #0F0F2D;
+}
+
+.line__off{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 80px;
+  align-items: center;
+}
+
+.btn__off{
+  height: 50px;
+  color: white;
+  width: 200px;
+  background-color: #555A88;
+  border: none;
+}
+
+.users_card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+
+/*MODAL*/
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+.modal-content p {
+  margin-bottom: 20px;
+}
+
+.modal-content button {
+  background-color: #0056b3;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.modal-content button:hover {
+  background-color: #0056b3;
+}
+
+.title_del{
+  color: #555A88;
+  text-align: center;
+}
+
+.btn_aceptar{
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+}
